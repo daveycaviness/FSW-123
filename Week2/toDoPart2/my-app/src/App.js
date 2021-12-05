@@ -1,15 +1,13 @@
-import ToDoList from './ToDo.js'
+import ToDoList from './ToDoList.js'
 import './App.css';
-import todos from './Store.js'
+import todos from './STORE.js'
 
 function App() {
   return (
    <div> 
       <h1>ToDo List!</h1>
       <ul>
-        {todos.map((e, i) => <ToDoList
-          text = {todos[i].text}
-        />)}
+        <ToDoList text = {todos}/>
       </ul>
     </div>
   );
