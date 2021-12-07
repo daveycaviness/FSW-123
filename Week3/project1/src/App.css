@@ -1,0 +1,34 @@
+#flexbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#diceImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.die{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border: 4px solid lightseagreen;
+  border-radius: 20px ;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: magenta;
+  font-size: 40px;
+  color: lightseagreen;
+}
+
+#btn{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
