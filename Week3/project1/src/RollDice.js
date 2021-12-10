@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import Die from './Die.js';
         
-export default function RollDice (props) {
+export default function RollDice () {
     const [die1, changeDie1] = useState("1");
     const [die2, changeDie2] = useState("1");
 

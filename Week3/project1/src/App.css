@@ -11,6 +11,20 @@
   align-items: center;
 }
 
+#btn{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  border: 20px solid lightseagreen;
+  color:magenta;
+  border-radius: 10px;
+}
+
 .die{
   display: flex;
   justify-content: center;
@@ -25,10 +39,3 @@
   color: lightseagreen;
 }
 
-#btn{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
