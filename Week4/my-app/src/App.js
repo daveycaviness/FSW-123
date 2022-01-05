@@ -31,7 +31,7 @@ function App() {
       todoChange(newList)
   }
   const addTodo = text => {
-    const copyList = [...todos];
+    const copyList = [...todosSet];
     const newEntry = {text: `${text}`, id: uuid(), isCompleted: false};
     copyList.push(newEntry);
     todoChange(copyList);
