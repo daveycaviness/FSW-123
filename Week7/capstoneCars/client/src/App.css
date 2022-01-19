@@ -1,0 +1,127 @@
+nav>a{
+    float: left;
+    color:cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 50%;
+}
+
+nav{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #333;
+}
+
+nav>a{
+        color:red;
+        background-color: ghostwhite;
+        text-decoration: underline solid firebrick;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline solid firebrick;
+    color: ghostwhite;
+    font-family: cursive;
+    margin-inline: 300px;
+}
+
+body{
+    background: url("https://wallpapercave.com/wp/wp3645520.jpg") no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 90%;
+}
+.dataBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    border: 2px solid firebrick;
+    border-radius: 75px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-inline: 20px;
+    font-family: cursive;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+}
+
+.rentalCar{
+    width: 500px;
+    height: auto;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: -40px;
+}
+
+.newDriver, .drvVehicle, .drvTime{
+    border: 1px solid firebrick;
+    text-align: center ;
+    color: ghostwhite;
+    font-family: cursive;
+}
+
+#flexTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    padding: 20px;
+    font-family: cursive;
+}
+
+#rentals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: ghostwhite;
+    font-family: cursive;
+    size: 50px;
+}
+
+.confirmForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-family: cursive;
+    margin: 10px;
+}
+
+button{
+    background-color: firebrick;
+    color: ghostwhite;
+}
+
+option{
+    background-color: firebrick;
+    color: ghostwhite;
+}
+
+#name{
+    background-color: firebrick;
+    color: ghostwhite;
+}
+
+#date{
+    background-color: firebrick;
+    color: ghostwhite;
+}
